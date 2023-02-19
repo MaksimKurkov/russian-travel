@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'), url(../../fonts/Inter-V.ttf);
+}
+
 .page {
     background-color: #2A2C2F;
     color: white;

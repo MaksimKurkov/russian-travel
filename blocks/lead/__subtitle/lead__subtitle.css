@@ -8,10 +8,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-  .lead__subtitle {
-	  width: 90%;
-    margin: 0 0 40px 0;
-	font-size: 16px;
-	line-height: 20px;
-}
+   .lead__subtitle {
+        width: 90%;
+        margin: 0 0 40px 0;
+        font-size: 16px;
+        line-height: 20px;
+   }
 }
