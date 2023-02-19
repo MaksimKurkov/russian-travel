@@ -1,0 +1,17 @@
+.intro__container {
+    margin: 0;
+    justify-self: left;
+    width: 65%;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .intro__container {
+    width: 100%;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .intro__container {
+    width: 70%;
+}
+}

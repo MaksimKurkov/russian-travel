@@ -1,0 +1,6 @@
+.content {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    justify-items: center;
+}
