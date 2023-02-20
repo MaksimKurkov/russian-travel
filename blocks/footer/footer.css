@@ -3,7 +3,8 @@
     margin: 0;
     width: 95%;
     display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media (max-width: 1024px) {
@@ -12,7 +13,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
     .footer {
         flex-direction: column;
         padding-top: 60px;

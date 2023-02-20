@@ -9,7 +9,7 @@
     grid-column: 2;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 320px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;

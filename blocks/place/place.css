@@ -6,12 +6,31 @@
     grid-template-rows: repeat(155px 460px);
     padding-bottom: 80px;
     box-sizing: border-box;
-    gap: 45px;
+    gap: 40px;
+}
+
+.place:last-child {
+    padding-bottom: 90px;
 }
 
 @media (max-width: 768px) {
     .place {
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(4, auto);
+        padding-bottom: 75px;
+        gap: 35px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, auto);
+        padding-bottom: 50px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place:last-child {
+        padding-bottom: 65px;
     }
 }
