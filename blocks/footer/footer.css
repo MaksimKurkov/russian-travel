@@ -6,8 +6,15 @@
 	justify-content: space-between;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 1024px) {
     .footer {
-	    flex-direction: column;
+        padding-top: 90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        padding-top: 60px;
     }
 }

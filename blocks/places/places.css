@@ -4,15 +4,15 @@
     padding-top: 95px;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 1024px) {
     .places {
-    width: 100%;
-
+        width: 95%;
+    }
 }
-}
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 768px) {
     .places {
-    width: 95%;
+        width: 100%;
+    }
 }
-}
+

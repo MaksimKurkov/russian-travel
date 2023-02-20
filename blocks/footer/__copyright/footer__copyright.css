@@ -5,11 +5,8 @@
     text-align: right;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .footer__copyright {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
         text-align: left;
     }
 }

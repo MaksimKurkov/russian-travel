@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 768px) {
    .lead__subtitle {
         width: 90%;
         margin: 0 0 40px 0;
