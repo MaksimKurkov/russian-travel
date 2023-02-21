@@ -3,17 +3,16 @@
     height: 100%;
     text-decoration: none;
     color: #FFFFFF;
-    box-sizing: border-box;
     display: flex;
-    background-image: url(../../../images/railway-transib.png);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    background-image: url(../../../images/railway-transib.png);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 740px;
     background-position: center;
+    min-height: 740px;
     position: relative;
 }
 
