@@ -6,11 +6,11 @@
 
 @media (max-width: 1024px) {
     .intro__container {
-        width: 70%;
+        width: 72.5%;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 825px) {
     .intro__container {
         width: 100%;
     }

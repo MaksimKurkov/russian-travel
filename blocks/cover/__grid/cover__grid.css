@@ -7,7 +7,7 @@
 
 @media (max-width: 768px) {
     .cover__grid {
-        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-columns: 1fr 73.5% 1fr;
     }
 }
 

@@ -9,12 +9,12 @@
 
 @media (max-width: 1024px) {
     .lead {
-        width: 95%;
+        width: 90%;
         padding-top: 45px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 825px) {
     .lead {
         width: 100%;
     }

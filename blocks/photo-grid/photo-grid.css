@@ -1,7 +1,7 @@
 .photo-grid {
     width: 95%;
     margin: 0;
-    padding-top: 95px;
+    padding-top: 90px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     grid-template-rows: repeat(auto-fit, 1fr);
@@ -13,13 +13,13 @@
     align-content: space-between;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 825px) {
     .photo-grid {
-        padding-top: 95px;
+        width: 93.5%;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 725px) {
     .photo-grid {
         width: 90%;
         padding-top: 65px;

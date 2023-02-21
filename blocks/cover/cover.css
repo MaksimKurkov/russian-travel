@@ -1,6 +1,9 @@
 .cover {
     width: 95%;
+    background-image: url(../../images/railway-transib.png);
+    box-sizing: border-box;
 }
+
 
 @media (max-width: 1024px) {
     .cover {

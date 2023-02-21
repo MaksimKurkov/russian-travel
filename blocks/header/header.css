@@ -1,5 +1,5 @@
 .header {
-    width: 95%;
+    width: 93.5%;
     display: flex;
     padding-top: 30px;
     justify-content: space-between;
@@ -8,7 +8,8 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 320px) {
+
+@media (max-width: 725px) {
     .header {
         padding-top: 15px;
         width: 90%;

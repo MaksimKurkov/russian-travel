@@ -7,11 +7,15 @@
     color: #FFFFFF;
 }
 
+.footer__link:last-child {
+    margin-right: 0;
+}
+
 .footer__link:hover {
     opacity: 0.8;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 725px) {
     .footer__link {
         margin-right: 0px;
         margin-bottom: 30px;
@@ -20,7 +24,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 725px) {
     .footer__link:last-child {
         margin-bottom: 50px;
     }

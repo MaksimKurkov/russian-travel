@@ -3,7 +3,6 @@
     width: 100%;
     display: grid;
     grid-template-columns: 45% calc(55% - 45px);
-    grid-template-rows: repeat(155px 460px);
     padding-bottom: 80px;
     box-sizing: border-box;
     gap: 40px;
@@ -13,14 +12,15 @@
     padding-bottom: 90px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 825px) {
     .place {
+        grid-template-columns: 47.5% calc(52.5% - 45px);
         padding-bottom: 75px;
         gap: 35px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 725px) {
     .place {
         grid-template-columns: 100%;
         grid-template-rows: repeat(4, auto);
@@ -29,7 +29,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 725px) {
     .place:last-child {
         padding-bottom: 65px;
     }
