@@ -26,6 +26,7 @@
 
 @media (max-width: 725px) {
     .footer__link:last-child {
+        margin-right: 0;
         margin-bottom: 50px;
     }
 }

@@ -1,12 +1,12 @@
 .intro__container {
     margin: 0;
     justify-self: left;
-    width: 65%;
+    width: 70%;
 }
 
 @media (max-width: 1024px) {
     .intro__container {
-        width: 72.5%;
+        width: 75%;
     }
 }
 

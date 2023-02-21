@@ -5,12 +5,24 @@
     text-align: center;
     margin: 0;
     z-index: 3;
-    grid-row: 3;
-    grid-column: 2;
+    width: 30%;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
     .cover__subtitle {
+        width: 35%;
+    }
+}
+
+@media (max-width: 825px) {
+    .cover__subtitle {
+        width: 47%;
+    }
+}
+
+@media (max-width: 725px) {
+    .cover__subtitle {
+        width: 90%;
         font-size: 14px;
         line-height: 16px;
     }

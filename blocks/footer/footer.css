@@ -2,7 +2,7 @@
     padding-top: 95px;
     padding-bottom: 25px;
     margin: 0;
-    width: 95%;
+    width: 92.5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,7 +10,8 @@
 
 @media (max-width: 1024px) {
     .footer {
-        padding-top: 90px;
+        width: 90%;
+        padding-top: 92px;
     }
 }
 
