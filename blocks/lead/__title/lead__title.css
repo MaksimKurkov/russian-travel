@@ -15,14 +15,15 @@
 
 @media (max-width: 825px) {
     .lead__title {
-        width: 95%;
+        width: 93.5%;
     }
 }
 
 @media (max-width: 725px) {
-   .lead__title {
-       margin: 0 0 15px 0;
-       font-size: 40px;
-       line-height: 44px;
-   }
+    .lead__title {
+        width: 90%;
+        margin: 0 0 15px 0;
+        font-size: 40px;
+        line-height: 44px;
+    }
 }
